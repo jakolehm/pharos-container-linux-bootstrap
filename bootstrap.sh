@@ -3,7 +3,7 @@
 set -uex
 
 # comma separated list of master host ip's
-MASTER_HOSTS="206.189.111.124"
+MASTER_HOSTS=""
 
 # create on master host using "kubeadm token create --print-join-command --ttl 0"
 TOKEN=""
